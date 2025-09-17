@@ -1,0 +1,1224 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 71;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26A5847C2935B5A10057DE73 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		26A5847E2935B5A10057DE73 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		3AA6AAB72C93317100F30A7F /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 3AA6AAB62C93317100F30A7F /* GoogleSignIn */; };
+		3AA6AAB92C93317100F30A7F /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3AA6AAB82C93317100F30A7F /* GoogleSignInSwift */; };
+		B62577D12C9B44830011D774 /* VVNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B62577CB2C9B44830011D774 /* VVNetworking.framework */; };
+		B62577D22C9B44830011D774 /* VVNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B62577CB2C9B44830011D774 /* VVNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B66C4F1B2CDA8D1000986B20 /* VVUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B66C4F152CDA8D1000986B20 /* VVUIKit.framework */; };
+		B6796F172E562657001313D2 /* ApptentiveKit in Frameworks */ = {isa = PBXBuildFile; productRef = B6796F162E562657001313D2 /* ApptentiveKit */; };
+		B6E08FEB2D9C9A9800F74B7C /* VVPersist.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6E08FE52D9C9A9800F74B7C /* VVPersist.framework */; };
+		B6E08FEC2D9C9A9800F74B7C /* VVPersist.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B6E08FE52D9C9A9800F74B7C /* VVPersist.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B6F533762D8467F6009D21A9 /* Virgin-Voyages-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6F533752D8467F6009D21A9 /* Virgin-Voyages-Info.plist */; };
+		B8B261CB2D5ADE8700FAA19A /* VVUIKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B66C4F152CDA8D1000986B20 /* VVUIKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C60C8C0A2D66BF5E00E2B1C8 /* libQMNative in Frameworks */ = {isa = PBXBuildFile; productRef = C60C8C092D66BF5E00E2B1C8 /* libQMNative */; };
+		F1014EDF2E3D134D000C3060 /* RecaptchaEnterprise in Frameworks */ = {isa = PBXBuildFile; productRef = F1014EDE2E3D134D000C3060 /* RecaptchaEnterprise */; };
+		F11EDA542CDE12ED007DB56F /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = F11EDA532CDE12ED007DB56F /* FirebaseMessaging */; };
+		F175EF6E2CDD0AEF004B3D98 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		F19D4A152CCA7F93005019AB /* (null) in Sources */ = {isa = PBXBuildFile; };
+		FAA5CB3F2C9C4A1D001E6C33 /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = FAA5CB3E2C9C4A1D001E6C33 /* FacebookLogin */; };
+		FADE730B2CF2AD7B004B2B78 /* SVGKitSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FADE730A2CF2AD7B004B2B78 /* SVGKitSwift */; };
+		FAF919C72D12D71600B35B0A /* Dynatrace in Frameworks */ = {isa = PBXBuildFile; productRef = FAF919C62D12D71600B35B0A /* Dynatrace */; };
+		FAF919C92D12D71600B35B0A /* DynatraceSessionReplay in Frameworks */ = {isa = PBXBuildFile; productRef = FAF919C82D12D71600B35B0A /* DynatraceSessionReplay */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26A584892935B5A20057DE73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26A584702935B5A10057DE73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26A584772935B5A10057DE73;
+			remoteInfo = "Virgin Voyages";
+		};
+		B62577CF2C9B44830011D774 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26A584702935B5A10057DE73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B62577CA2C9B44830011D774;
+			remoteInfo = VVClient;
+		};
+		B66C4F192CDA8D1000986B20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26A584702935B5A10057DE73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B66C4F142CDA8D1000986B20;
+			remoteInfo = VVUIKit;
+		};
+		B6E08FE92D9C9A9800F74B7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26A584702935B5A10057DE73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6E08FE42D9C9A9800F74B7C;
+			remoteInfo = VVPersist;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B60376912C494EC1002B5D14 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B8B261CB2D5ADE8700FAA19A /* VVUIKit.framework in Embed Frameworks */,
+				B6E08FEC2D9C9A9800F74B7C /* VVPersist.framework in Embed Frameworks */,
+				B62577D22C9B44830011D774 /* VVNetworking.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		26A584782935B5A10057DE73 /* Virgin Voyages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Virgin Voyages.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26A584882935B5A20057DE73 /* Virgin VoyagesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Virgin VoyagesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B62577CB2C9B44830011D774 /* VVNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VVNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B66C4F152CDA8D1000986B20 /* VVUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VVUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6E08FE52D9C9A9800F74B7C /* VVPersist.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VVPersist.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6F533752D8467F6009D21A9 /* Virgin-Voyages-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Virgin-Voyages-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B66C4F1F2CDA8D1000986B20 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Views/BookingReferenceInfoSheet.swift,
+			);
+			publicHeaders = (
+				VVUIKit.h,
+			);
+			target = B66C4F142CDA8D1000986B20 /* VVUIKit */;
+		};
+		B6E08FF02D9C9A9800F74B7C /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			publicHeaders = (
+				VVPersist.h,
+			);
+			target = B6E08FE42D9C9A9800F74B7C /* VVPersist */;
+		};
+		B6F501FA2D8459B8009D21A9 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Features/Authentication/Login/Domain/UseCases/EmailLoginUseCaseTests.swift,
+				Features/Authentication/SignUp/Presentation/ViewModels/SignUpDetailsViewModelTests.swift,
+			);
+			target = 26A584872935B5A20057DE73 /* Virgin VoyagesTests */;
+		};
+		B6F533732D84679B009D21A9 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Source/Extensions/Date.swift,
+				Source/Extensions/String.swift,
+				"Source/Shared/Extensions/DateComponents+DateValidation.swift",
+			);
+			target = 26A584872935B5A20057DE73 /* Virgin VoyagesTests */;
+		};
+		B6F533742D84679B009D21A9 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Source/Features/Home/Domain/Models/HomeSection.swift,
+			);
+			target = B66C4F142CDA8D1000986B20 /* VVUIKit */;
+		};
+		C691E64C2D6F143F00C20753 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets.xcassets,
+				Views/BookingReferenceInfoSheet.swift,
+			);
+			target = 26A584772935B5A10057DE73 /* Virgin Voyages */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B66C4F162CDA8D1000986B20 /* VVUIKit */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (C691E64C2D6F143F00C20753 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, B66C4F1F2CDA8D1000986B20 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = VVUIKit; sourceTree = "<group>"; };
+		B6E08FE62D9C9A9800F74B7C /* VVPersist */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (B6E08FF02D9C9A9800F74B7C /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = VVPersist; sourceTree = "<group>"; };
+		B6F501932D8459B7009D21A9 /* Virgin VoyagesTests */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (B6F501FA2D8459B8009D21A9 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = "Virgin VoyagesTests"; sourceTree = "<group>"; };
+		B6F52E662D84679A009D21A9 /* Virgin Voyages */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (B6F533732D84679B009D21A9 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, B6F533742D84679B009D21A9 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = "Virgin Voyages"; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26A584752935B5A10057DE73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B66C4F1B2CDA8D1000986B20 /* VVUIKit.framework in Frameworks */,
+				B62577D12C9B44830011D774 /* VVNetworking.framework in Frameworks */,
+				B6E08FEB2D9C9A9800F74B7C /* VVPersist.framework in Frameworks */,
+				3AA6AAB72C93317100F30A7F /* GoogleSignIn in Frameworks */,
+				F11EDA542CDE12ED007DB56F /* FirebaseMessaging in Frameworks */,
+				FAF919C92D12D71600B35B0A /* DynatraceSessionReplay in Frameworks */,
+				C60C8C0A2D66BF5E00E2B1C8 /* libQMNative in Frameworks */,
+				B6796F172E562657001313D2 /* ApptentiveKit in Frameworks */,
+				FAF919C72D12D71600B35B0A /* Dynatrace in Frameworks */,
+				FADE730B2CF2AD7B004B2B78 /* SVGKitSwift in Frameworks */,
+				3AA6AAB92C93317100F30A7F /* GoogleSignInSwift in Frameworks */,
+				FAA5CB3F2C9C4A1D001E6C33 /* FacebookLogin in Frameworks */,
+				F1014EDF2E3D134D000C3060 /* RecaptchaEnterprise in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26A584852935B5A20057DE73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B62577C82C9B44830011D774 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66C4F122CDA8D1000986B20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E08FE22D9C9A9800F74B7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26A5846F2935B5A10057DE73 = {
+			isa = PBXGroup;
+			children = (
+				B6F533752D8467F6009D21A9 /* Virgin-Voyages-Info.plist */,
+				B6F52E662D84679A009D21A9 /* Virgin Voyages */,
+				B6F501932D8459B7009D21A9 /* Virgin VoyagesTests */,
+				B66C4F162CDA8D1000986B20 /* VVUIKit */,
+				B6E08FE62D9C9A9800F74B7C /* VVPersist */,
+				26A584792935B5A10057DE73 /* Products */,
+				3AA6AAB52C93317100F30A7F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		26A584792935B5A10057DE73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26A584782935B5A10057DE73 /* Virgin Voyages.app */,
+				26A584882935B5A20057DE73 /* Virgin VoyagesTests.xctest */,
+				B62577CB2C9B44830011D774 /* VVNetworking.framework */,
+				B66C4F152CDA8D1000986B20 /* VVUIKit.framework */,
+				B6E08FE52D9C9A9800F74B7C /* VVPersist.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AA6AAB52C93317100F30A7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B62577C62C9B44830011D774 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66C4F102CDA8D1000986B20 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E08FE02D9C9A9800F74B7C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		26A584772935B5A10057DE73 /* Virgin Voyages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26A5849C2935B5A20057DE73 /* Build configuration list for PBXNativeTarget "Virgin Voyages" */;
+			buildPhases = (
+				26A584742935B5A10057DE73 /* Sources */,
+				26A584752935B5A10057DE73 /* Frameworks */,
+				26A584762935B5A10057DE73 /* Resources */,
+				B60376912C494EC1002B5D14 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B62577D02C9B44830011D774 /* PBXTargetDependency */,
+				B66C4F1A2CDA8D1000986B20 /* PBXTargetDependency */,
+				B6E08FEA2D9C9A9800F74B7C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B6F52E662D84679A009D21A9 /* Virgin Voyages */,
+			);
+			name = "Virgin Voyages";
+			packageProductDependencies = (
+				3AA6AAB62C93317100F30A7F /* GoogleSignIn */,
+				3AA6AAB82C93317100F30A7F /* GoogleSignInSwift */,
+				FAA5CB3E2C9C4A1D001E6C33 /* FacebookLogin */,
+				F11EDA532CDE12ED007DB56F /* FirebaseMessaging */,
+				FADE730A2CF2AD7B004B2B78 /* SVGKitSwift */,
+				FAF919C62D12D71600B35B0A /* Dynatrace */,
+				FAF919C82D12D71600B35B0A /* DynatraceSessionReplay */,
+				C60C8C092D66BF5E00E2B1C8 /* libQMNative */,
+				F1014EDE2E3D134D000C3060 /* RecaptchaEnterprise */,
+				B6796F162E562657001313D2 /* ApptentiveKit */,
+			);
+			productName = "Virgin Voyages";
+			productReference = 26A584782935B5A10057DE73 /* Virgin Voyages.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26A584872935B5A20057DE73 /* Virgin VoyagesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26A5849F2935B5A20057DE73 /* Build configuration list for PBXNativeTarget "Virgin VoyagesTests" */;
+			buildPhases = (
+				26A584842935B5A20057DE73 /* Sources */,
+				26A584852935B5A20057DE73 /* Frameworks */,
+				26A584862935B5A20057DE73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26A5848A2935B5A20057DE73 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B6F501932D8459B7009D21A9 /* Virgin VoyagesTests */,
+			);
+			name = "Virgin VoyagesTests";
+			productName = "Virgin VoyagesTests";
+			productReference = 26A584882935B5A20057DE73 /* Virgin VoyagesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B62577CA2C9B44830011D774 /* VVNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B62577D32C9B44830011D774 /* Build configuration list for PBXNativeTarget "VVNetworking" */;
+			buildPhases = (
+				B62577C62C9B44830011D774 /* Headers */,
+				B62577C72C9B44830011D774 /* Sources */,
+				B62577C82C9B44830011D774 /* Frameworks */,
+				B62577C92C9B44830011D774 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VVNetworking;
+			productName = VVClient;
+			productReference = B62577CB2C9B44830011D774 /* VVNetworking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B66C4F142CDA8D1000986B20 /* VVUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B66C4F202CDA8D1000986B20 /* Build configuration list for PBXNativeTarget "VVUIKit" */;
+			buildPhases = (
+				B66C4F102CDA8D1000986B20 /* Headers */,
+				B66C4F112CDA8D1000986B20 /* Sources */,
+				B66C4F122CDA8D1000986B20 /* Frameworks */,
+				B66C4F132CDA8D1000986B20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B66C4F162CDA8D1000986B20 /* VVUIKit */,
+			);
+			name = VVUIKit;
+			packageProductDependencies = (
+			);
+			productName = VVUIKit;
+			productReference = B66C4F152CDA8D1000986B20 /* VVUIKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B6E08FE42D9C9A9800F74B7C /* VVPersist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6E08FED2D9C9A9800F74B7C /* Build configuration list for PBXNativeTarget "VVPersist" */;
+			buildPhases = (
+				B6E08FE02D9C9A9800F74B7C /* Headers */,
+				B6E08FE12D9C9A9800F74B7C /* Sources */,
+				B6E08FE22D9C9A9800F74B7C /* Frameworks */,
+				B6E08FE32D9C9A9800F74B7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B6E08FE62D9C9A9800F74B7C /* VVPersist */,
+			);
+			name = VVPersist;
+			packageProductDependencies = (
+			);
+			productName = VVPersist;
+			productReference = B6E08FE52D9C9A9800F74B7C /* VVPersist.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26A584702935B5A10057DE73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					26A584772935B5A10057DE73 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					26A584872935B5A20057DE73 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 26A584772935B5A10057DE73;
+					};
+					B62577CA2C9B44830011D774 = {
+						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
+					};
+					B66C4F142CDA8D1000986B20 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					B6E08FE42D9C9A9800F74B7C = {
+						CreatedOnToolsVersion = 16.2;
+						LastSwiftMigration = 1620;
+					};
+				};
+			};
+			buildConfigurationList = 26A584732935B5A10057DE73 /* Build configuration list for PBXProject "Virgin Voyages" */;
+			compatibilityVersion = "Xcode 16.0.Superseded.1";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26A5846F2935B5A10057DE73;
+			packageReferences = (
+				3AD7E0FB2C9192EC00FDD668 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				FAA5CB3D2C9C4A1D001E6C33 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+				F17AF1FE2CDB96FD0027F52B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				FADE73092CF2AD7B004B2B78 /* XCRemoteSwiftPackageReference "SVGKit" */,
+				FAF919C52D12D71600B35B0A /* XCRemoteSwiftPackageReference "swift-mobile-sdk" */,
+				B6EBB12F2D5551BC0027C1AB /* XCRemoteSwiftPackageReference "SwiftLint" */,
+				C60C8C082D66BF3A00E2B1C8 /* XCRemoteSwiftPackageReference "quantum-sdk-ios" */,
+				F1014EDD2E3D134D000C3060 /* XCRemoteSwiftPackageReference "recaptcha-enterprise-mobile-sdk" */,
+				B69C2F4B2E5625160094EFA2 /* XCRemoteSwiftPackageReference "apptentive-kit-ios" */,
+			);
+			productRefGroup = 26A584792935B5A10057DE73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26A584772935B5A10057DE73 /* Virgin Voyages */,
+				26A584872935B5A20057DE73 /* Virgin VoyagesTests */,
+				B62577CA2C9B44830011D774 /* VVNetworking */,
+				B66C4F142CDA8D1000986B20 /* VVUIKit */,
+				B6E08FE42D9C9A9800F74B7C /* VVPersist */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26A584762935B5A10057DE73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6F533762D8467F6009D21A9 /* Virgin-Voyages-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26A584862935B5A20057DE73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B62577C92C9B44830011D774 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66C4F132CDA8D1000986B20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E08FE32D9C9A9800F74B7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26A584742935B5A10057DE73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26A5847E2935B5A10057DE73 /* (null) in Sources */,
+				F19D4A152CCA7F93005019AB /* (null) in Sources */,
+				26A5847C2935B5A10057DE73 /* (null) in Sources */,
+				F175EF6E2CDD0AEF004B3D98 /* (null) in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26A584842935B5A20057DE73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B62577C72C9B44830011D774 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66C4F112CDA8D1000986B20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E08FE12D9C9A9800F74B7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26A5848A2935B5A20057DE73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26A584772935B5A10057DE73 /* Virgin Voyages */;
+			targetProxy = 26A584892935B5A20057DE73 /* PBXContainerItemProxy */;
+		};
+		B62577D02C9B44830011D774 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B62577CA2C9B44830011D774 /* VVNetworking */;
+			targetProxy = B62577CF2C9B44830011D774 /* PBXContainerItemProxy */;
+		};
+		B66C4F1A2CDA8D1000986B20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B66C4F142CDA8D1000986B20 /* VVUIKit */;
+			targetProxy = B66C4F192CDA8D1000986B20 /* PBXContainerItemProxy */;
+		};
+		B6E08FEA2D9C9A9800F74B7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6E08FE42D9C9A9800F74B7C /* VVPersist */;
+			targetProxy = B6E08FE92D9C9A9800F74B7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		26A5849A2935B5A20057DE73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26A5849B2935B5A20057DE73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26A5849D2935B5A20057DE73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = B6F52E662D84679A009D21A9 /* Virgin Voyages */;
+			baseConfigurationReferenceRelativePath = Source/Features/Shared/Infrastructure/Configuration/Debug.xcconfig;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Virgin Voyages/Virgin Voyages.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_ASSET_PATHS = "\"Virgin Voyages/Preview Content\"";
+				DEVELOPMENT_TEAM = ALS8H9T9QC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Virgin-Voyages-Info.plist";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This helps us deliver directly to you while you’re on board";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "This app needs access to your calendar to add events.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We use your camera to take a security photo.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "This app will optionally use Face ID or Touch ID to save login.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This allows us to locate you to on the ship to deliver your Champagne";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.virginvoyages.ci.sailor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		26A5849E2935B5A20057DE73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = B6F52E662D84679A009D21A9 /* Virgin Voyages */;
+			baseConfigurationReferenceRelativePath = Source/Features/Shared/Infrastructure/Configuration/Release.xcconfig;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Virgin Voyages/Virgin Voyages.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Virgin Voyages/Preview Content\"";
+				DEVELOPMENT_TEAM = ALS8H9T9QC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Virgin-Voyages-Info.plist";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This helps us deliver directly to you while you’re on board";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "This app needs access to your calendar to add events.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We use your camera to take a security photo.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "This app will optionally use Face ID or Touch ID to save login.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This allows us to locate you to on the ship to deliver your Champagne";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.virginvoyages.ci.sailor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		26A584A02935B5A20057DE73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ALS8H9T9QC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PomegranateApps.Virgin-VoyagesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Virgin Voyages.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Virgin Voyages";
+			};
+			name = Debug;
+		};
+		26A584A12935B5A20057DE73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ALS8H9T9QC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PomegranateApps.Virgin-VoyagesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Virgin Voyages.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Virgin Voyages";
+			};
+			name = Release;
+		};
+		B62577D42C9B44830011D774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ALS8H9T9QC;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 38;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.virginvoyages.VVClient;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B62577D52C9B44830011D774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ALS8H9T9QC;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 38;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.virginvoyages.VVClient;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B66C4F1D2CDA8D1000986B20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ALS8H9T9QC;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.virginvoyages.VVUIKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B66C4F1E2CDA8D1000986B20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ALS8H9T9QC;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.virginvoyages.VVUIKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B6E08FEE2D9C9A9800F74B7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ALS8H9T9QC;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.virginvoyages.VVPersist;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B6E08FEF2D9C9A9800F74B7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ALS8H9T9QC;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.virginvoyages.VVPersist;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26A584732935B5A10057DE73 /* Build configuration list for PBXProject "Virgin Voyages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26A5849A2935B5A20057DE73 /* Debug */,
+				26A5849B2935B5A20057DE73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26A5849C2935B5A20057DE73 /* Build configuration list for PBXNativeTarget "Virgin Voyages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26A5849D2935B5A20057DE73 /* Debug */,
+				26A5849E2935B5A20057DE73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26A5849F2935B5A20057DE73 /* Build configuration list for PBXNativeTarget "Virgin VoyagesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26A584A02935B5A20057DE73 /* Debug */,
+				26A584A12935B5A20057DE73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B62577D32C9B44830011D774 /* Build configuration list for PBXNativeTarget "VVNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B62577D42C9B44830011D774 /* Debug */,
+				B62577D52C9B44830011D774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B66C4F202CDA8D1000986B20 /* Build configuration list for PBXNativeTarget "VVUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B66C4F1D2CDA8D1000986B20 /* Debug */,
+				B66C4F1E2CDA8D1000986B20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6E08FED2D9C9A9800F74B7C /* Build configuration list for PBXNativeTarget "VVPersist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6E08FEE2D9C9A9800F74B7C /* Debug */,
+				B6E08FEF2D9C9A9800F74B7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3AD7E0FB2C9192EC00FDD668 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		B69C2F4B2E5625160094EFA2 /* XCRemoteSwiftPackageReference "apptentive-kit-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apptentive/apptentive-kit-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.1;
+			};
+		};
+		B6EBB12F2D5551BC0027C1AB /* XCRemoteSwiftPackageReference "SwiftLint" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/SwiftLint.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.58.2;
+			};
+		};
+		C60C8C082D66BF3A00E2B1C8 /* XCRemoteSwiftPackageReference "quantum-sdk-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://virginvoyages:gldt-u_Az-HxswLThWqjbWAy4@sdk.quantummetric.com/swift-package-manager/quantum-sdk-ios.git";
+			requirement = {
+				kind = exactVersion;
+				version = 1.1.97;
+			};
+		};
+		F1014EDD2E3D134D000C3060 /* XCRemoteSwiftPackageReference "recaptcha-enterprise-mobile-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/GoogleCloudPlatform/recaptcha-enterprise-mobile-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 18.7.0;
+			};
+		};
+		F17AF1FE2CDB96FD0027F52B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.4.0;
+			};
+		};
+		FAA5CB3D2C9C4A1D001E6C33 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 14.1.0;
+			};
+		};
+		FADE73092CF2AD7B004B2B78 /* XCRemoteSwiftPackageReference "SVGKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SVGKit/SVGKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		FAF919C52D12D71600B35B0A /* XCRemoteSwiftPackageReference "swift-mobile-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Dynatrace/swift-mobile-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.305.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3AA6AAB62C93317100F30A7F /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3AD7E0FB2C9192EC00FDD668 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		3AA6AAB82C93317100F30A7F /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3AD7E0FB2C9192EC00FDD668 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		B6796F162E562657001313D2 /* ApptentiveKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B69C2F4B2E5625160094EFA2 /* XCRemoteSwiftPackageReference "apptentive-kit-ios" */;
+			productName = ApptentiveKit;
+		};
+		C60C8C092D66BF5E00E2B1C8 /* libQMNative */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C60C8C082D66BF3A00E2B1C8 /* XCRemoteSwiftPackageReference "quantum-sdk-ios" */;
+			productName = libQMNative;
+		};
+		F1014EDE2E3D134D000C3060 /* RecaptchaEnterprise */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F1014EDD2E3D134D000C3060 /* XCRemoteSwiftPackageReference "recaptcha-enterprise-mobile-sdk" */;
+			productName = RecaptchaEnterprise;
+		};
+		F11EDA532CDE12ED007DB56F /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F17AF1FE2CDB96FD0027F52B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		FAA5CB3E2C9C4A1D001E6C33 /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAA5CB3D2C9C4A1D001E6C33 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
+		FADE730A2CF2AD7B004B2B78 /* SVGKitSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FADE73092CF2AD7B004B2B78 /* XCRemoteSwiftPackageReference "SVGKit" */;
+			productName = SVGKitSwift;
+		};
+		FAF919C62D12D71600B35B0A /* Dynatrace */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAF919C52D12D71600B35B0A /* XCRemoteSwiftPackageReference "swift-mobile-sdk" */;
+			productName = Dynatrace;
+		};
+		FAF919C82D12D71600B35B0A /* DynatraceSessionReplay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAF919C52D12D71600B35B0A /* XCRemoteSwiftPackageReference "swift-mobile-sdk" */;
+			productName = DynatraceSessionReplay;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 26A584702935B5A10057DE73 /* Project object */;
+}

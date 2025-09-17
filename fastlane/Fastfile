@@ -1,0 +1,120 @@
+import './sailor_app_ios_vv.fastfile'
+
+# Support ENV variables as options or lane parameters
+fastlane_require 'dotenv'
+
+# dir variable set to react native root directory
+@dir = File.expand_path('..', Dir.pwd).freeze
+
+platform :ios do
+    @apple_username = ENV["IOS_USERNAME"] || "devops@virginvoyages.com"
+    @app_team_id = ENV["APPLE_TEAM_ID"] || "120343767"
+    @kc_id = ENV["KEYCHAIN_ID"] || "login"
+    @kc_pass = ENV["KEYCHAIN_PASSWORD"]
+    @project_number = ENV["APPLE_PROJECT_VERSION_NUMBER"]
+    @changelog = ENV["WHAT_TO_TEST_MSG"] || "New IOS build"
+
+    before_all do
+        xcode_select("/Applications/Xcode-16.0.app")
+        sh "rm -f .project_version.env"
+    end
+
+    lane :unlock_kc do
+        unlock_keychain(
+            path: "#{@kc_id}",
+            password: "#{@kc_pass}",
+            set_default: true
+        )
+    end
+
+    lane :pod_install do
+        cocoapods(
+            repo_update: true,
+            podfile: "#{@dir}"
+        )
+    end
+
+    lane :tests do
+        run_tests(
+            devices: ["iPhone 16"],
+            scheme: "Virgin Voyages"
+        )
+      end
+
+    # lane :incr_ios_project_number do
+    #     increment_version_number(
+    #         version_number: "#{@project_number}",
+    #         xcodeproj: "#{@dir}/Virgin Voyages.xcodeproj"
+    #     )
+    # end
+    
+    lane :current_marketing_version do
+        ENV['MARKETING_VERSION'] = get_version_number(
+            xcodeproj: "#{@dir}/Virgin Voyages.xcodeproj",
+            target: "Virgin Voyages"
+        )
+        sh "echo MARKETING_VERSION=$MARKETING_VERSION >> .project_version.env"
+    end
+
+    lane :incr_ios_build_number do |values|
+        bundle_id = values[:bundle_id]
+        ENV['NEW_BUILD_NUMBER'] = increment_build_number({
+            xcodeproj: "#{@dir}/Virgin Voyages.xcodeproj",
+            build_number: latest_testflight_build_number(
+                username: "#{@apple_username}",
+                app_identifier: bundle_id,
+                team_id: "#{@app_team_id}"
+            ) + 1
+        })
+        sh "echo NEW_BUILD_NUMBER=$NEW_BUILD_NUMBER >> .project_version.env"
+    end
+
+    lane :build_ipa do |values|
+        configuration = values[:configuration]
+        export_method = values[:export_method] || "app-store"
+
+        build_app(
+            scheme: "Virgin Voyages",
+            configuration: configuration,
+            clean: true,
+            output_directory: "#{@dir}/apk-output",
+            export_xcargs: "-allowProvisioningUpdates",
+            export_method: export_method,
+            silent: true
+        )
+        # Capture the dSYM path
+        dsym_path = Actions.lane_context[SharedValues::DSYM_OUTPUT_PATH]
+        if dsym_path
+          UI.success("📦 dSYM path: #{dsym_path}")
+        else
+          UI.important("⚠️ No dSYM path was generated.")
+        end
+    end
+
+    lane :upload_tf do |values|
+        bundle_id = values[:bundle_id]
+        distribute_external = values[:distribute_external]
+        upload_to_testflight(
+            username: "#{@apple_username}",
+            app_identifier: bundle_id,
+            team_id: "#{@app_team_id}",
+            distribute_external: distribute_external,
+            changelog: "#{@changelog}",
+            groups: [
+                "External QA",
+                "QA_Ext"
+            ],
+            itc_provider: "#{@app_team_id}"
+        )
+    end
+
+    after_all do |lane|
+        if lane == :tests
+            sh("echo 'Skip build renaming'")
+        else
+            sh("mv '#{@dir}/apk-output/Virgin Voyages.ipa' #{@dir}/apk-output/SailorApp_$MARKETING_VERSION.$NEW_BUILD_NUMBER.ipa")
+        end
+        # upload_to_slack
+    end
+
+end

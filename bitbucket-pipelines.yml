@@ -1,0 +1,20 @@
+image: alpine/curl:8.9.1
+
+pipelines:
+  branches:
+    develop:
+      - step:
+          name: Trigger Develop Jenkins Build
+          deployment: test
+          script:
+            - curl -k -I -X POST -u "$JENKINS_CREDS" --fail "https://npjenkins.gcpshore.virginvoyages.com/job/sailor-app-ios-dev/buildWithParameters?Branch=develop"
+    release/*:
+      - step:
+          deployment: test
+          script:
+            - curl -k -I -X POST -u "$JENKINS_CREDS" --fail "https://npjenkins.gcpshore.virginvoyages.com/job/sailor-app-ios-qa/buildWithParameters?Branch=$BITBUCKET_BRANCH"
+    main:
+      - step:
+          deployment: test
+          script:
+            - curl -k -I -X POST -u "$JENKINS_CREDS" --fail "https://npjenkins.gcpshore.virginvoyages.com/job/sailor-app-ios-prod/buildWithParameters?Branch=main"

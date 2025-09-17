@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>aps-environment</key>
+	<string>development</string>
+	<key>com.apple.developer.applesignin</key>
+	<array>
+		<string>Default</string>
+	</array>
+	<key>com.apple.developer.associated-domains</key>
+	<array>
+		<string>applinks:virginvoyages.com</string>
+		<string>applinks:www.virginvoyages.com</string>
+	</array>
+	<key>com.apple.developer.networking.HotspotConfiguration</key>
+	<true/>
+	<key>com.apple.developer.networking.wifi-info</key>
+	<true/>
+	<key>com.apple.developer.pass-type-identifiers</key>
+	<array>
+		<string>$(TeamIdentifierPrefix)pass.com.vv</string>
+		<string>$(TeamIdentifierPrefix)pass.com.vv.demo</string>
+		<string>$(TeamIdentifierPrefix)pass.com.vv.nonprod</string>
+		<string>$(TeamIdentifierPrefix)pass.com.vv.prod</string>
+	</array>
+</dict>
+</plist>

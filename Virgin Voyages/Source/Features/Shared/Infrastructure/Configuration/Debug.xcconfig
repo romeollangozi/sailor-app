@@ -1,0 +1,30 @@
+//
+//  Debug.xcconfig
+//  Virgin Voyages
+//
+//  Created by Darko Trpevski on 10.3.25.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+FB_APP_ID = 439301653841577
+FB_CLIENT_TOKEN = f149548facdbb6fb5f02b47ec50f81f6
+
+GOOGLE_CLIENT_ID = 298515492594-d0fotekv6f9ntt5cumk0c1htg7smtrc2.apps.googleusercontent.com
+GOOGLE_BUNDLE_URL_SCHEME = com.googleusercontent.apps.298515492594-d0fotekv6f9ntt5cumk0c1htg7smtrc2
+
+// reCAPTCHA
+RECAPTCHA_SITE_KEY = 6LfyzE0pAAAAAEk-kvt4FoO_X70iQbIpWibI0aOh
+
+// Firebase
+FIREBASE_API_KEY = AIzaSyCiTD55yFstNwETlP6V0ndKKWQlW9GVukc
+FIREBASE_BUNDLE_ID = com.virginvoyages.ci.sailor
+FIREBASE_CLIENT_ID = 419569167755-93c0urgg8ik0kbltj20ima24rdk9gupd.apps.googleusercontent.com
+FIREBASE_DATABASE_URL = https://vv-firebase-323ec.firebaseio.com
+FIREBASE_GCM_SENDER_ID = 419569167755
+FIREBASE_GOOGLE_APP_ID = 1:419569167755:ios:8fa0dfde94242e225f938e
+FIREBASE_PROJECT_ID = vv-firebase-323ec
+FIREBASE_REVERSED_CLIENT_ID = com.googleusercontent.apps.419569167755-93c0urgg8ik0kbltj20ima24rdk9gupd
+FIREBASE_STORAGE_BUCKET = vv-firebase-323ec.firebasestorage.app
+

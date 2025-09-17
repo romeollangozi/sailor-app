@@ -1,0 +1,46 @@
+platform :ios do
+
+    desc 'Sailor app VV INT Debug .ipa'
+    lane :vv_ipa_developer do
+        unlock_kc
+        current_marketing_version
+        incr_ios_build_number bundle_id:"com.virginvoyages.ci.sailor"
+        # Ensure Xcode automatic signing is used (no pinned profile)
+        update_code_signing_settings(
+            use_automatic_signing: true,
+            path: "#{@dir}/Virgin Voyages.xcodeproj",
+            team_id: "ALS8H9T9QC",
+            targets: "Virgin Voyages"
+        )
+        # Use app-store export for TestFlight compatibility
+        build_ipa configuration:"Debug", export_method:"app-store"
+    end
+
+    desc 'Sailor app VV Prod Release .ipa'
+    lane :vv_ipa_release do
+        unlock_kc
+        current_marketing_version
+        incr_ios_build_number bundle_id:"com.virginvoyages.sailor.prod"
+        # Ensure Xcode automatic signing is used (no pinned profile)
+        update_code_signing_settings(
+            use_automatic_signing: true,
+            path: "#{@dir}/Virgin Voyages.xcodeproj",
+            team_id: "ALS8H9T9QC",
+            targets: "Virgin Voyages"
+        )
+        build_ipa configuration:"Release", export_method:"app-store"
+    end
+
+    desc 'Upload VV Debug .ipa to testflight'
+    lane :vv_qa_tf do
+        vv_ipa_developer
+        upload_tf bundle_id:"com.virginvoyages.ci.sailor",distribute_external:false
+    end
+
+    desc 'Upload VV Release .ipa to testflight'
+    lane :vv_prod_tf do
+        vv_ipa_release
+        upload_tf bundle_id:"com.virginvoyages.sailor.prod",distribute_external:false
+    end
+
+end

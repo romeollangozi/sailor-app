@@ -1,0 +1,30 @@
+//
+//  Release.xcconfig
+//  Virgin Voyages
+//
+//  Created by Darko Trpevski on 10.3.25.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+FB_APP_ID = 554785948639735
+FB_CLIENT_TOKEN = 3b9c4ee14b1c9053ff284c9943d94d4a
+
+GOOGLE_CLIENT_ID = 311699263609-8sou7n0t784get2l76h3p4i5k5c7oird.apps.googleusercontent.com
+GOOGLE_BUNDLE_URL_SCHEME = com.googleusercontent.apps.311699263609-8sou7n0t784get2l76h3p4i5k5c7oird
+
+// reCAPTCHA
+RECAPTCHA_SITE_KEY = 6LeLkPkmAAAAAGRP2VUBc1c8Wa_-FfK9bp7JOA15
+
+// Firebase
+FIREBASE_API_KEY = AIzaSyCPwmixNIwdqDAqT3kRbYIrgZNMFDR4THA
+FIREBASE_BUNDLE_ID = com.virginvoyages.sailor.prod
+FIREBASE_CLIENT_ID =
+FIREBASE_DATABASE_URL = https://virginvoyages-sailorapp-prod.firebaseio.com
+FIREBASE_GCM_SENDER_ID = 1009463637176
+FIREBASE_GOOGLE_APP_ID = 1:1009463637176:ios:def5678
+FIREBASE_PROJECT_ID = virginvoyages-sailorapp-prod
+FIREBASE_REVERSED_CLIENT_ID =
+FIREBASE_STORAGE_BUCKET = virginvoyages-sailorapp-prod.firebasestorage.app
+
